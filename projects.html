@@ -5,14 +5,14 @@ layout: default
 <main class="container">
   <h1 class="heading">Projects</h1>
   <ul class="projects">
-    <li>
-      <div class="project">
-        <h2>Project Name</h2>
-        <p>Description</p>
-        <a class="project-link" href="#" target="_blank"
-          ><i class="fab fa-github-alt"></i
-        ></a>
-      </div>
+    {% for item in site.data.projects %}
+    <li class="project">
+      <h2>{{ item.name }}</h2>
+      <p>{{ item.description }}</p>
+      <a href="{{ item.url }}" class="project-link" target="_blank">
+        <i class="fab fa-github-alt"></i>
+      </a>
     </li>
+    {% endfor %}
   </ul>
 </main>
