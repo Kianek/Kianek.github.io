@@ -2,27 +2,35 @@
 <nav class="navbar">
   <div class="navbar-items container">
     <a href="/" class="navbar-brand">Keanu Allridge</a>
-    {% for item in site.data.navigation %}
-      <a 
-        href="{{ item.link }}"
-        {% if page.url == item.link %} 
-          class="navbar-link active" 
-        {% else %}
-          class="navbar-link"
-        {% endif%}
-        >{{ item.name }}</a>
-    {% endfor %}
-    <a
-    class="navbar-link icon"
-    href="https://linkedin.com/in/keanu-allridge"
-    target="_blank"
-    ><i class="fab fa-linkedin"></i
-  ></a>
-  <a
-    class="navbar-link icon"
-    href="https://github.com/Kianek"
-    target="_blank"
-    ><i class="fab fa-github"></i
-  ></a>
+    <div class="dropdown">
+      <a id="dropdown-btn" class="navbar-link" href="javascript:void(0);" onclick="toggleDropdown()">
+      <i class="fas fa-bars"></i>
+      </a>
+      <div id="dropdown-content" class="">
+
+      {% for item in site.data.navigation %}
+        <a 
+          href="{{ item.link }}"
+          {% if page.url == item.link %} 
+            class="navbar-link active" 
+          {% else %}
+            class="navbar-link"
+          {% endif %}
+          >{{ item.name }}</a>
+      {% endfor %}
+        <a
+        class="navbar-link icon"
+        href="https://linkedin.com/in/keanu-allridge"
+        target="_blank"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <a
+        class="navbar-link icon"
+        href="https://github.com/Kianek"
+        target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
+      </div>
+    </div>
   </div>
 </nav>
