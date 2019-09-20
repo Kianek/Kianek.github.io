@@ -16,33 +16,41 @@
 <nav class="navbar">
   <div class="navbar-items container">
     <a href="/" class="navbar-brand">Keanu Allridge</a>
-    
-      <a 
-        href="/projects.html"
-        
-          class="navbar-link"
-        
-        >Projects</a>
-    
-      <a 
-        href="/contact.html"
-         
-          class="navbar-link active" 
-        
-        >Contact</a>
-    
-    <a
-    class="navbar-link icon"
-    href="https://linkedin.com/in/keanu-allridge"
-    target="_blank"
-    ><i class="fab fa-linkedin"></i
-  ></a>
-  <a
-    class="navbar-link icon"
-    href="https://github.com/Kianek"
-    target="_blank"
-    ><i class="fab fa-github"></i
-  ></a>
+    <div class="dropdown">
+      <a id="dropdown-btn" class="navbar-link" href="javascript:void(0);" onclick="toggleDropdown()">
+      <i class="fas fa-bars"></i>
+      </a>
+      <div id="dropdown-content" class="">
+
+      
+        <a 
+          href="/projects.html"
+          
+            class="navbar-link"
+          
+          >Projects</a>
+      
+        <a 
+          href="/contact.html"
+           
+            class="navbar-link active" 
+          
+          >Contact</a>
+      
+        <a
+        class="navbar-link icon"
+        href="https://linkedin.com/in/keanu-allridge"
+        target="_blank"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <a
+        class="navbar-link icon"
+        href="https://github.com/Kianek"
+        target="_blank"
+        ><i class="fab fa-github"></i
+      ></a>
+      </div>
+    </div>
   </div>
 </nav>
     <div class="container">
@@ -52,5 +60,6 @@
 
 
     <script src="https://kit.fontawesome.com/9ddede4800.js"></script>
+    <script src="/assets/js/main.js"></script>
   </body>
 </html>
