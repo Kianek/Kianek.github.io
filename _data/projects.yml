@@ -1,0 +1,6 @@
+- name: Project
+  description: A super neat project!
+  url: #
+- name: Another Project
+  description: I wrote a thing that does stuff
+  url: #
