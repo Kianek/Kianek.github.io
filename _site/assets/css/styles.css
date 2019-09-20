@@ -42,4 +42,9 @@ a { transition: 0.125s; }
 
 .icon { font-size: 1.75rem; }
 
+@media screen and (min-width: 600px) { #dropdown-content { display: flex; flex-direction: row; align-items: center; justify-content: center; }
+  #dropdown-btn { display: none; }
+  .projects { display: flex; flex-direction: row; align-items: center; justify-content: center; }
+  .project { margin: 1rem; min-width: 275; } }
+
 /*# sourceMappingURL=styles.css.map */
