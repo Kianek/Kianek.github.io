@@ -6,7 +6,7 @@ h1, h2, h3, p { margin-bottom: 0.5rem; }
 
 h1, h2, h3 { font-family: Oswald, Arial, sans-serif; color: #fff; }
 
-p { color: #fff; }
+p { color: #fff; padding: 1em; }
 
 a { transition: 0.125s; }
 
@@ -33,6 +33,8 @@ a { transition: 0.125s; }
 .projects { display: flex; flex-direction: column; list-style: none; align-items: center; justify-content: center; margin: 0 auto; overflow: auto; padding: 0; width: 70%; }
 
 .project { background-color: #89898f; border-radius: 5px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 3rem; overflow: hidden; width: 100%; }
+
+.project p { text-align: center; }
 
 .project-link { background-color: #fff; color: #45454b; font-size: 1.5rem; padding-top: 0.25em; text-align: center; width: 100%; }
 
