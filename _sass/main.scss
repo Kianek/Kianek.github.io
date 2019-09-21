@@ -8,6 +8,7 @@ $white: #fff;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -95,6 +96,7 @@ a {
       0 12px 20px 0 rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     position: absolute;
@@ -107,14 +109,13 @@ a {
 
 .projects {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   list-style: none;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  overflow: auto;
   padding: 0;
-  width: 70%;
+  width: 50%;
 }
 
 .project {
@@ -172,12 +173,12 @@ a {
   .projects {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
   }
 
   .project {
     margin: 1rem;
-    min-width: 275;
+    width: 300px;
   }
 }
