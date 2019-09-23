@@ -1,0 +1,39 @@
+@import 'globals.scss';
+
+.panel > address > ul {
+  list-style-type: none;
+}
+
+.contact-btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  margin-bottom: 1rem;
+}
+
+.btn-rounded-lt {
+  border-radius: 50px 0 0 50px;
+}
+
+.btn-rounded-rt {
+  border-radius: 0 50px 50px 0;
+}
+
+.contact-info {
+  background-color: $bg-secondary;
+  color: $white;
+  font-size: 2rem;
+  padding: 1rem;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.contact-info:hover {
+  color: $bg-secondary;
+  background-color: $white;
+}
+
+address {
+  font-style: normal;
+}

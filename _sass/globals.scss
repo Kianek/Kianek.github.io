@@ -1,0 +1,21 @@
+$bg-primary: #686870;
+$bg-secondary: #45454b;
+$bg-panel: #89898f;
+$link-active: #c5c5c5;
+$white: #fff;
+
+.panel {
+  background-color: $bg-panel;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+  overflow: hidden;
+  width: 100%;
+
+  p {
+    text-align: center;
+  }
+}
