@@ -1,8 +1,5 @@
-$bg-primary: #686870;
-$bg-secondary: #45454b;
-$bg-project: #89898f;
-$link-active: #c5c5c5;
-$white: #fff;
+@import 'globals.scss';
+@import 'contact.scss';
 
 * {
   font-family: Arial, Helvetica, sans-serif;
@@ -107,6 +104,7 @@ a {
   }
 }
 
+// TODO: Extract to projects.scss and import
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -119,7 +117,7 @@ a {
 }
 
 .project {
-  background-color: $bg-project;
+  background-color: $bg-panel;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
