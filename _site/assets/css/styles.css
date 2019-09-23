@@ -1,3 +1,25 @@
+.panel { background-color: #89898f; border-radius: 5px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 3rem; overflow: hidden; width: 100%; }
+
+.panel p { text-align: center; }
+
+.panel { background-color: #89898f; border-radius: 5px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 3rem; overflow: hidden; width: 100%; }
+
+.panel p { text-align: center; }
+
+.panel > address > ul { list-style-type: none; }
+
+.contact-btn-group { display: flex; align-items: center; justify-content: center; padding: 1em; margin-bottom: 1rem; }
+
+.btn-rounded-lt { border-radius: 50px 0 0 50px; }
+
+.btn-rounded-rt { border-radius: 0 50px 50px 0; }
+
+.contact-info { background-color: #45454b; color: #fff; font-size: 2rem; padding: 1rem; text-decoration: none; transition: 0.2s; }
+
+.contact-info:hover { color: #45454b; background-color: #fff; }
+
+address { font-style: normal; }
+
 * { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; box-sizing: border-box; }
 
 body { background: #686870; }
