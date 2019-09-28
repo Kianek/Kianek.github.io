@@ -1,0 +1,10 @@
+.blurbs {
+  display: flex;
+  flex-direction: column;
+
+  .blurb {
+    font-size: 1.1em;
+    text-align: left;
+    max-width: 90%;
+  }
+}
