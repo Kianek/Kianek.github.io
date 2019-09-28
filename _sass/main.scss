@@ -15,20 +15,22 @@ body {
 h1,
 h2,
 h3,
-p {
-  margin-bottom: 0.5rem;
+p,
+ul,
+li {
+  color: $white;
+  margin-bottom: 0.2rem;
 }
 
 h1,
 h2,
 h3 {
   font-family: Oswald, Arial, sans-serif;
-  color: $white;
 }
 
 p {
   color: $white;
-  padding: 1em;
+  padding: 0 1em 1em;
 }
 
 a {
@@ -45,7 +47,8 @@ a {
   width: 90%;
 }
 
-.navbar {
+.navbar,
+footer {
   background-color: $bg-secondary;
 }
 
@@ -154,6 +157,11 @@ a {
 
 .icon {
   font-size: 1.75rem;
+}
+
+p.blurb {
+  font-size: 1.1em;
+  text-align: left;
 }
 
 @media screen and (min-width: 600px) {
