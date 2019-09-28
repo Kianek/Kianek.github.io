@@ -1,0 +1,82 @@
+@import 'globals.scss';
+
+.navbar {
+  background-color: $bg-secondary;
+}
+
+.navbar-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.navbar-brand {
+  font-family: Oswald, Arial, sans-serif;
+  font-size: 2rem;
+  margin-right: auto;
+}
+
+.navbar-link {
+  font-size: 1.25rem;
+  padding: 1rem;
+}
+
+.navbar-link:hover {
+  color: $link-active;
+}
+
+.navbar-brand,
+.navbar-link,
+.project-link {
+  color: $white;
+  text-decoration: none;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  position: relative;
+}
+
+#dropdown-content {
+  display: none;
+
+  &.show {
+    background-color: $bg-secondary;
+    box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2),
+      0 12px 20px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    width: 110%;
+    z-index: 10;
+
+    .navbar-link {
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #dropdown-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #dropdown-btn {
+    display: none;
+  }
+}
