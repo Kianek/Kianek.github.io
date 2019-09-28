@@ -1,12 +1,16 @@
 .justify-lt { text-justify: left; }
 
-.panel { background-color: #89898f; border-radius: 5px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 3rem; overflow: hidden; width: 100%; }
+.margin-top { margin-top: 1.5rem; }
+
+.panel { background-color: #89898f; border-radius: 5px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 1.5rem; overflow: hidden; width: 100%; }
 
 .panel p { text-align: center; }
 
 .justify-lt { text-justify: left; }
 
-.panel { background-color: #89898f; border-radius: 5px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 3rem; overflow: hidden; width: 100%; }
+.margin-top { margin-top: 1.5rem; }
+
+.panel { background-color: #89898f; border-radius: 5px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 1.5rem; overflow: hidden; width: 100%; }
 
 .panel p { text-align: center; }
 
@@ -26,7 +30,9 @@ address { font-style: normal; }
 
 .justify-lt { text-justify: left; }
 
-.panel { background-color: #89898f; border-radius: 5px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 3rem; overflow: hidden; width: 100%; }
+.margin-top { margin-top: 1.5rem; }
+
+.panel { background-color: #89898f; border-radius: 5px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 1.5rem; overflow: hidden; width: 100%; }
 
 .panel p { text-align: center; }
 
