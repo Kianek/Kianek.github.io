@@ -1,4 +1,5 @@
 @import 'globals.scss';
+@import 'home.scss';
 @import 'contact.scss';
 @import 'navbar.scss';
 
@@ -101,11 +102,6 @@ footer {
 
 .icon {
   font-size: 1.75rem;
-}
-
-p.blurb {
-  font-size: 1.1em;
-  text-align: left;
 }
 
 @media screen and (min-width: 600px) {
