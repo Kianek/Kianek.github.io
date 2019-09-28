@@ -4,6 +4,10 @@ $bg-panel: #89898f;
 $link-active: #c5c5c5;
 $white: #fff;
 
+.justify-lt {
+  text-justify: left;
+}
+
 .panel {
   background-color: $bg-panel;
   border-radius: 5px;
