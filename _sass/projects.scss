@@ -34,15 +34,15 @@
     text-align: center;
     width: 100%;
   }
-}
 
-.project-link:hover {
-  background-color: $bg-secondary;
-  color: $white;
-}
+  .project-link:hover {
+    background-color: $bg-secondary;
+    color: $white;
+  }
 
-.project-link:hover {
-  color: $link-active;
+  .project-link:hover {
+    color: $link-active;
+  }
 }
 
 @media screen and (min-width: 600px) {
