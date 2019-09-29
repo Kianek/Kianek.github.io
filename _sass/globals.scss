@@ -5,6 +5,24 @@ $link-active: #c5c5c5;
 $white: #fff;
 $orange: #ff9100;
 
+.active {
+  color: $link-active;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.heading {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.icon {
+  font-size: 1.75rem;
+}
+
 .justify-lt {
   text-justify: left;
 }
