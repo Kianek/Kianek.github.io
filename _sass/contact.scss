@@ -4,6 +4,10 @@
   list-style-type: none;
 }
 
+.panel > p {
+  padding: 1em;
+}
+
 .contact-btn-group {
   display: flex;
   align-items: center;

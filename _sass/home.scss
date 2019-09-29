@@ -1,6 +1,8 @@
 .blurbs {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  width: 80%;
 
   .blurb {
     font-size: 1.1em;

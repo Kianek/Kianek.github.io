@@ -1,3 +1,4 @@
+@import 'footer.scss';
 @import 'globals.scss';
 @import 'home.scss';
 @import 'contact.scss';
@@ -21,7 +22,6 @@ p,
 ul,
 li {
   color: $white;
-  margin-bottom: 0.2rem;
 }
 
 h1,
@@ -49,11 +49,6 @@ a {
   width: 90%;
 }
 
-footer {
-  background-color: $bg-secondary;
-}
-
-// TODO: Extract to projects.scss and import
 .projects {
   display: flex;
   flex-wrap: wrap;

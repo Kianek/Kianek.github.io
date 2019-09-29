@@ -3,6 +3,7 @@ $bg-secondary: #45454b;
 $bg-panel: #89898f;
 $link-active: #c5c5c5;
 $white: #fff;
+$orange: #ff9100;
 
 .justify-lt {
   text-justify: left;
@@ -22,8 +23,4 @@ $white: #fff;
   margin-bottom: 1.5rem;
   overflow: hidden;
   width: 100%;
-
-  p {
-    text-align: center;
-  }
 }
