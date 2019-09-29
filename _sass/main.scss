@@ -39,3 +39,7 @@ p {
 a {
   transition: 0.125s;
 }
+
+.active {
+  color: $link-active;
+}
